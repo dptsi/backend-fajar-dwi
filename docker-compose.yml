@@ -5,7 +5,7 @@ services:
         container_name: belajar_golang
         image: dptsi/php-web-dev:7.4
         volumes:
-            - ../belajar-golang:/var/www/html
+            - ../backend-fajar-dwi:/var/www/html
         environment: 
             - VIRTUAL_HOST=${VIRTUAL_HOST}
             - VIRTUAL_PORT=${VIRTUAL_PORT}
